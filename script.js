@@ -5,6 +5,8 @@ const student = {
 	
 	
 }
-Object.prototype.getKeys = ()=>{return Object.Keys(student)};
+Object.prototype.getKeys = function (){
+	return Object.keys(this);
+}
 
 
