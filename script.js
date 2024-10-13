@@ -5,7 +5,6 @@ const student = {
 	
 	
 }
-Object.prototype.getKeys = ()=>{return Object.K
-	eys(student)};
+Object.prototype.getKeys = ()=>{return Object.Keys(student)};
 
 
